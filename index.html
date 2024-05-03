@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAD 14</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .thumbnails{
+            display: flex;
+            padding: 5px;
+            justify-content: space-evenly;
+            row-gap: 3rem;
+        }
+        .items{
+            padding: 1rem;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .items a{
+            font-style: none;
+            text-decoration: none;
+            color: black;
+        }
+        .items:hover{
+            background-color: rgb(0, 242, 255);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+   <div class="container-fluid ">
+        <div class="row">
+            <div class="col-lg-4">
+                <div>
+                    <div class="w-100">
+                        <h3>Some Favorites</h3>
+                    </div>
+                    <div class="items w-100 p-4">
+                        <a href="#">Apple</a>
+                    </div>
+                    <div class="items w-100 p-4">
+                        <a href="#">Orange</a>
+                    </div>
+
+                    <div class="items w-100 p-4">
+                        <a href="#">Mango</a>
+                    </div>
+                </div>
+
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="">
+                        <br>
+                        <button class="btn btn-lg btn-primary ">Search Items</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-lg-8">
+                <h1>Wild & Wacky Vegetabels</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, officia necessitatibus optio ex, molestiae similique esse qui voluptas illo repudiandae vel. Tempora ipsum minus, ut harum exercitationem molestiae. Voluptate, deleniti?</p>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi voluptatibus dolor ad delectus dolorem eveniet fugit soluta natus alias, hic accusamus minima suscipit quos blanditiis eius vitae vero totam nihil.</p>
+                <h2>Some Diseases</h2>
+                <table class="table border border-1 border-black ">
+                    <thead>
+                        <tr class="bg-danger ">
+                            <th>Fruits</th>
+                            <th>Disease</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Carrot</td>
+                            <td>NighBlindness</td>
+
+                        </tr>
+                        <tr>
+                            <td>Banana</td>
+                            <td>White Blood Cell</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Information</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis dignissimos possimus consequatur
+                    id itaque quibusdam asperiores illo tempore ducimus quam. Eligendi, repellat sint distinctio
+                    repellendus repudiandae veritatis magni quisquam non.</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta omnis odit laborum maxime id dolore
+                    doloribus error, repudiandae deserunt. Fuga repudiandae rem dolores ratione voluptatibus quaerat
+                    odio architecto. Vero, non!</p>
+
+
+                    <div class="thumbnails">
+                        <div class="row align-items-center">
+                        <div class="card col-lg-4" style="width: 250px;">
+                            <img src="./assets/apple.jpeg"
+                                class="card-img-top object-fit-cover " alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Apple</h5>
+                                <p class="card-text">Apple is an American corporation that develops and sells computer electronics, software, personal computers and portable devices internationally.</p>
+                            </div>
+                        </div>
+                        <div class="card col-lg-4" style="width:250px;">
+                            <img src="./assets/orange.jpeg"
+                                class="card-img-top object-fit-cover" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Oranges</h5>
+                                <p class="card-text">An orange, also called sweet orange to distinguish it from the bitter orange (Citrus × aurantium), is the fruit of a tree in the family Rutaceae.</p>
+                            </div>
+                        </div>
+                        <div class="card col-lg-4" style="width:250px;">
+                            <img src="./assets/mango.jpeg"
+                                class="card-img-top object-fit-cover" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mango</h5>
+                                <p class="card-text">A mango is an edible stone fruit produced by the tropical tree Mangifera indica.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+</body>
+</html>
